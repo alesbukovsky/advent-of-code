@@ -31,7 +31,7 @@ def count(ds, rs, f, c) {
 
 def r1 = count(ds, rs, 'AAA', { it == 'ZZZ' })
 
-println r1 // 19951
+println r1  // 19951
 
 //--- part 2 -------------------------------------------------------------
 
@@ -53,4 +53,4 @@ def r2 = lcm( rs.findAll {it.key.endsWith('A') }
         .collect { k, v -> count(ds, rs, k, { it.endsWith('Z') }) }
     )
 
-println r2 // 16342438708751
+println r2  // 16342438708751

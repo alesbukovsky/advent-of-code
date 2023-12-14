@@ -47,7 +47,7 @@ def r1 = num.findAll { n ->
     .collect { Integer.parseInt(it[0]) }
     .sum()
 
-println r1 // 550064
+println r1  // 550064
 
 //--- part 2 -------------------------------------------------------------
 
@@ -67,4 +67,4 @@ r2 = sym.findAll { s ->
     }
     .sum()
 
-println r2 // 85010461
+println r2  // 85010461

@@ -19,7 +19,7 @@ def ms = new File(args[0])
 
 def r1 = ms.collect {it > 0 ? 2 ** (it - 1) : 0 }.sum()
 
-println r1 // 21558
+println r1  // 21558
 
 //--- part 2 -------------------------------------------------------------
 
@@ -35,4 +35,4 @@ for (def i = 0; i < cs.size(); i++) {
 
 def r2 = cs.collect { it[1] }.sum()
 
-println r2 // 10425665
+println r2  // 10425665

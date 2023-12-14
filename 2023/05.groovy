@@ -37,7 +37,7 @@ def loc1(s, ms) {
 
 def r1 = seeds.collect { s -> loc1(s, maps) }.min()
 
-println r1 // 340994526
+println r1  // 340994526
 
 //--- part 2 -------------------------------------------------------------
 
@@ -87,4 +87,4 @@ def r2 = seeds.collate(2)
     .flatten()
     .min()
 
-println r2 // 52210644
+println r2  // 52210644

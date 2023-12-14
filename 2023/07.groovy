@@ -68,10 +68,10 @@ def run(hs, joker) {
 
 def r1 = run(dt, false)
 
-println r1 // 250898830
+println r1  // 250898830
 
 //--- part 2 -------------------------------------------------------------
 
 def r2 = run(dt, true)
 
-println r2 // 252127335
+println r2  // 252127335

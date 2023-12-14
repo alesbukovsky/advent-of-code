@@ -27,7 +27,7 @@ def r1 = dt.findAll { k, v ->
     .collect { k, v -> k }
     .sum()
 
-println r1 // 2683
+println r1  // 2683
 
 //--- part 2 -------------------------------------------------------------
 
@@ -36,4 +36,4 @@ def r2 = dt.collect { k, v ->
     }
     .sum()
 
-println r2 // 49710
+println r2  // 49710

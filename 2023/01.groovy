@@ -12,7 +12,7 @@ def r1 = dt.collect {
     }
     .sum()
 
-println r1 // 54968
+println r1  // 54968
 
 //--- part 2 -------------------------------------------------------------
 
@@ -30,4 +30,4 @@ def r2 = dt.collect {
     }
     .sum()
 
-println r2 // 54094
+println r2  // 54094

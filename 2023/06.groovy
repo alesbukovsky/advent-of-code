@@ -23,7 +23,7 @@ def r1 = dt.transpose().collect { r ->
     }
     .inject { a, v -> a * v }
 
-println r1 // 3316275
+println r1  // 3316275
 
 //--- part 2 -------------------------------------------------------------
 
@@ -35,7 +35,7 @@ def (long t, long d) = dt.collect {
 
 def r2 = (0..t).findAll { x -> dist(x, t) > d }.size()
 
-println r2 // 27102791
+println r2  // 27102791
 
 //--- part 2: binary search (much faster) --------------------------------
 
@@ -62,4 +62,4 @@ def lt = round(t/2 + (t/2 - ft))
 // number of winning times is simply the number of them between first and last
 def r3 = lt - ft + 1
 
-println r3 // 27102791
+println r3  // 27102791
